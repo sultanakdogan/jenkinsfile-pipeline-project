@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'Compiling the java source code'
+                echo 'Compiling the java source oo code'
                 sh 'javac Hello.java'
             }
         }
